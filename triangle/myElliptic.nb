@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[    371068,       8166]
-NotebookOptionsPosition[    363697,       7962]
-NotebookOutlinePosition[    364152,       7980]
-CellTagsIndexPosition[    364109,       7977]
+NotebookDataLength[    378115,       8430]
+NotebookOptionsPosition[    370743,       8226]
+NotebookOutlinePosition[    371198,       8244]
+CellTagsIndexPosition[    371155,       8241]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -222,7 +222,8 @@ Cell[BoxData[{
    3.593169476178623*^9}, {3.593169527497216*^9, 3.593169527952839*^9}, {
    3.593170135014463*^9, 3.593170135627511*^9}, {3.593170273031125*^9, 
    3.593170273683578*^9}, {3.593170347874278*^9, 3.593170393479361*^9}, {
-   3.5931778189600887`*^9, 3.593177819588304*^9}}]
+   3.5931778189600887`*^9, 3.593177819588304*^9}, {3.5932453646421432`*^9, 
+   3.593245393543457*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -587,7 +588,9 @@ PhSFQBeUtQJsglvRnrOiqpLsFN8hhXiU145w08h8NrrPQfFJz6L0VZzV1Ao2
 9fz6BwmDNKY=
    "]],
   Editable->False]], "Print",
- CellChangeTimes->{3.593170277387629*^9, 3.5931778235001383`*^9}],
+ CellChangeTimes->{
+  3.593170277387629*^9, 3.5931778235001383`*^9, {3.593245372033887*^9, 
+   3.593245399406971*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -822,7 +825,9 @@ Cell[BoxData[
     0.6433453793418771, 0.863215158619216, 0}, {
     0.8065000249516681, 0.8459724119620056, 0}}],
   Editable->False]], "Print",
- CellChangeTimes->{3.593170277387629*^9, 3.5931778235053377`*^9}]
+ CellChangeTimes->{
+  3.593170277387629*^9, 3.5931778235001383`*^9, {3.593245372033887*^9, 
+   3.5932453994143248`*^9}}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -2296,7 +2301,9 @@ Cell[BoxData[
       RowBox[{"1", ",", "0.75`"}], "}"}], ",", 
      RowBox[{"{", 
       RowBox[{"1", ",", "1"}], "}"}]}], "}"}]}], "}"}]], "Print",
- CellChangeTimes->{3.593170277441584*^9, 3.5931778235558567`*^9}],
+ CellChangeTimes->{
+  3.593170277441584*^9, 3.5931778235558567`*^9, {3.593245372260455*^9, 
+   3.593245399480015*^9}}],
 
 Cell[BoxData[
  GraphicsBox[{{}, {}, 
@@ -2727,7 +2734,9 @@ Cell[BoxData[
   PlotRangePadding->{
     Scaled[0.02], 
     Scaled[0.02]}]], "Output",
- CellChangeTimes->{3.593170277444211*^9, 3.593177823576723*^9}]
+ CellChangeTimes->{
+  3.593170277444211*^9, 3.593177823576723*^9, {3.5932453726379433`*^9, 
+   3.5932453994989023`*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2737,7 +2746,9 @@ Cell[BoxData[
  CellChangeTimes->{{3.5649188520619087`*^9, 3.564918868192337*^9}}],
 
 Cell[BoxData["117"], "Output",
- CellChangeTimes->{3.593170277511169*^9, 3.5931778236547337`*^9}]
+ CellChangeTimes->{
+  3.593170277511169*^9, 3.5931778236547337`*^9, {3.593245372791626*^9, 
+   3.593245399552718*^9}}]
 }, Open  ]],
 
 Cell["\<\
@@ -2822,12 +2833,12 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"Print", "[", 
      RowBox[{"\"\<BoundSort pooints: \>\"", ",", " ", "boundpoint"}], "]"}], 
-    ";"}], "\[IndentingNewLine]", 
+    ";"}], 
+   StyleBox["\[IndentingNewLine]", "MR"], 
    RowBox[{"(*", " ", 
     StyleBox[
      RowBox[{"number", " ", "of", " ", "boundary", " ", "nods"}],
-     FontColor->RGBColor[0, 0, 1]], " ", "*)"}], 
-   StyleBox["\[IndentingNewLine]", "MR"], 
+     FontColor->RGBColor[0, 0, 1]], " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"numBoundCond", "=", 
      RowBox[{"Length", "[", "boundpoint", "]"}]}], ";"}], 
@@ -2878,7 +2889,9 @@ Cell[BoxData[
   "BoundSort pooints: ", {1, 2, 3, 5, 6, 11, 13, 20, 23, 24, 27, 31, 38, 40, 
    43, 46, 47, 49, 52, 56, 57, 62, 68}],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702776085987`*^9, 3.593177823698938*^9}]
+ CellChangeTimes->{
+  3.5931702776085987`*^9, 3.593177823698938*^9, {3.593245372824366*^9, 
+   3.593245399607534*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2969,7 +2982,9 @@ Cell[BoxData[
   RowBox[{"\<\"Order of equation: \"\>", "\[InvisibleSpace]", "48"}],
   SequenceForm["Order of equation: ", 48],
   Editable->False]], "Print",
- CellChangeTimes->{3.593170277639022*^9, 3.5931778237525597`*^9}]
+ CellChangeTimes->{
+  3.593170277639022*^9, 3.5931778237525597`*^9, {3.593245372874013*^9, 
+   3.593245399654368*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3132,7 +3147,9 @@ Cell[BoxData[
    35, 36, -20, -21, 37, 38, 39, 40, -22, 41, 42, 43, 44, 45, -23, 46, 47, 
    48}, "  nv=", 48, "  k=", -23],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702776908007`*^9, 3.593177823803836*^9}],
+ CellChangeTimes->{
+  3.5931702776908007`*^9, 3.593177823803836*^9, {3.5932453729067583`*^9, 
+   3.5932453997052298`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3149,7 +3166,9 @@ FontColor->RGBColor[0, 0, 1]]\)\!\(\*\nStyleBox[\" \",\n\
 FontColor->RGBColor[0, 0, 1]]\)\!\(\*\nStyleBox[\"matrix\",\n\
 FontColor->RGBColor[0, 0, 1]]\)=", 79],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702776908007`*^9, 3.593177823806883*^9}]
+ CellChangeTimes->{
+  3.5931702776908007`*^9, 3.593177823803836*^9, {3.5932453729067583`*^9, 
+   3.593245399708063*^9}}]
 }, Open  ]]
 }, Open  ]],
 
@@ -3573,7 +3592,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    2.2204460492503136`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823881431*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399784257*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3586,7 +3607,9 @@ Cell[BoxData[
   "e=", 2, " dt=", 0.00994655064174107, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823883267*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399786055*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3600,7 +3623,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    4.440892098500627*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823885294*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399788039*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3614,7 +3639,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    3.3306690738754696`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823887415*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399790186*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3628,7 +3655,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251564`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823889544*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399792213*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3642,7 +3671,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    3.3306690738754696`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778238918123`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399794438*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3656,7 +3687,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    2.2204460492503126`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.59317782389417*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453997965603`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3669,7 +3702,9 @@ Cell[BoxData[
   "e=", 8, " dt=", 0.016076242101290408`, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823896448*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.59324539979856*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3682,7 +3717,9 @@ Cell[BoxData[
   "e=", 9, " dt=", 0.013714790282897597`, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823898519*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998005342`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3695,7 +3732,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    2.220446049250313*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823900581*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998024893`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3710,7 +3749,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251565`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823902748*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399804511*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3724,7 +3765,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    2.2204460492503136`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823904929*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399806566*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3738,7 +3781,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    9.992007221626415*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823907077*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399808609*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3753,7 +3798,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251568`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.59317782390923*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399810638*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3768,7 +3815,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -2.2204460492503126`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823911375*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998126583`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3783,7 +3832,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -4.440892098500627*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823913554*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399814722*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3798,7 +3849,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -2.2204460492503136`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823915782*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998167543`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3813,7 +3866,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -4.440892098500628*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823917931*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998187637`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3827,7 +3882,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -4.440892098500626*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778239200974`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399820726*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3842,7 +3899,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -6.661338147750941*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823922182*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399822815*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3856,7 +3915,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    3.330669073875471*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778239242764`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399824768*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3870,7 +3931,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    1.1102230246251568`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778239263906`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399826726*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3885,7 +3948,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -2.2204460492503128`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.59317782392848*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998286858`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3899,7 +3964,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    2.2204460492503136`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823930625*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998306427`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3914,7 +3981,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -2.220446049250313*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823932705*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399832608*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3928,7 +3997,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    2.2204460492503128`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823934786*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399834569*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3943,7 +4014,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251563`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823936865*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399836555*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3958,7 +4031,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -2.220446049250313*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823938949*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399838525*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3973,7 +4048,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -3.3306690738754686`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823941062*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.59324539984051*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3987,7 +4064,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    1.1102230246251568`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778239431877`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998424807`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4002,7 +4081,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -4.4408920985006257`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823945273*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399844474*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4016,7 +4097,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    6.661338147750942*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823947362*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399846445*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4031,7 +4114,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -2.2204460492503136`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823949445*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998484097`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4046,7 +4131,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251565`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823951544*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.59324539985042*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4061,7 +4148,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251568`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823953639*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399852398*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4075,7 +4164,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    3.3306690738754706`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778239557467`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399854396*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4089,7 +4180,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -4.440892098500626*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823957881*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399856372*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4104,7 +4197,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251565`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823960002*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998583527`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4116,7 +4211,9 @@ Cell[BoxData[
   "e=", 39, " dt=", 0.015625, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823962111*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998603487`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4131,7 +4228,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -4.440892098500626*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823964222*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399862259*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4146,7 +4245,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -4.440892098500626*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778239663973`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399864246*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4160,7 +4261,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    6.661338147750941*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823968556*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998662453`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4173,7 +4276,9 @@ Cell[BoxData[
   "e=", 43, " dt=", 0.00732609754607863, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823970697*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399868216*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4188,7 +4293,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -3.3306690738754696`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778239727097`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998701363`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4202,7 +4309,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    5.551115123125784*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823974828*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399872119*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4217,7 +4326,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251565`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823976922*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998741207`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4231,7 +4342,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    1.1102230246251564`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823979018*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998761063`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4245,7 +4358,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    4.440892098500627*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778239811687`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399878085*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4259,7 +4374,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    4.440892098500628*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823983528*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998800592`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4274,7 +4391,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -6.661338147750941*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.59317782398588*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399882065*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4289,7 +4408,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -2.2204460492503128`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778239882307`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399884088*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4304,7 +4425,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251565`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823990353*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399886077*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4319,7 +4442,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251568`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823992496*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399888104*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4332,7 +4457,9 @@ Cell[BoxData[
   "e=", 54, " dt=", 0.010928599093370423`, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823994673*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399890094*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4345,7 +4472,9 @@ Cell[BoxData[
   "e=", 55, " dt=", 0.014805361684635464`, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177823996702*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453998920107`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4358,7 +4487,9 @@ Cell[BoxData[
   "e=", 56, " dt=", 0.01733224782927808, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778239987297`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399893968*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4373,7 +4504,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -3.3306690738754696`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.59317782400078*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399895973*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4387,7 +4520,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251565`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824002893*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399898044*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4401,7 +4536,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    2.2204460492503136`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778240050507`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453999000597`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4414,7 +4551,9 @@ Cell[BoxData[
   "e=", 60, " dt=", 0.01844345529599809, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824007225*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399902092*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4429,7 +4568,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -6.106226635438361*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824009276*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399904037*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4442,7 +4583,9 @@ Cell[BoxData[
   "e=", 62, " dt=", 0.007811688837882446, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824011557*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399906036*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4456,7 +4599,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    4.440892098500627*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824013685*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399907971*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4470,7 +4615,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    3.330669073875471*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778240158663`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453999100122`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4484,7 +4631,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    1.1102230246251565`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824017971*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399912011*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4498,7 +4647,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    1.1102230246251568`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824020089*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399914019*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4513,7 +4664,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -4.440892098500627*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824022211*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453999160423`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4527,7 +4680,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    2.2204460492503136`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824024371*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399918035*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4541,7 +4696,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    6.661338147750941*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824026639*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399920062*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4554,7 +4711,9 @@ Cell[BoxData[
   "e=", 70, " dt=", 0.015260611243956067`, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778240288353`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399922176*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4568,7 +4727,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    5.551115123125788*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824030903*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399924115*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4582,7 +4743,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    2.220446049250313*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824033094*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399926127*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4596,7 +4759,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    2.220446049250313*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824035307*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399928134*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4611,7 +4776,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251563`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778240376177`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399930146*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4625,7 +4792,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    1.1102230246251562`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824039949*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399932159*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4640,7 +4809,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -3.3306690738754706`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.59317782404218*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399934183*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4654,7 +4825,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    1.1102230246251568`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824044495*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399936192*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4669,7 +4842,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -3.3306690738754706`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824046708*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399938224*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4683,7 +4858,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    4.440892098500627*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778240488567`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399940246*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4696,7 +4873,9 @@ Cell[BoxData[
   "e=", 80, " dt=", 0.018441300332443282`, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824050989*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453999422626`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4711,7 +4890,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251564`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824053051*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399944233*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4726,7 +4907,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -2.220446049250313*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824055193*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453999462748`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4741,7 +4924,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -2.220446049250313*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824057364*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399948305*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4755,7 +4940,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    2.220446049250313*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778240596333`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453999503937`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4768,7 +4955,9 @@ Cell[BoxData[
   "e=", 85, " dt=", 0.02764467729377447, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778240618773`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399952656*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4783,7 +4972,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -4.440892098500627*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778240639467`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399954687*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4797,7 +4988,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    3.3306690738754716`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824066141*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399956869*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4810,7 +5003,9 @@ Cell[BoxData[
   "e=", 88, " dt=", 0.013675677813473524`, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824068355*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399959223*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4825,7 +5020,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -6.661338147750941*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824070541*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453999613543`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4838,7 +5035,9 @@ Cell[BoxData[
   "e=", 90, " dt=", 0.01573564390070153, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778240727453`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399963765*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4853,7 +5052,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251563`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.59317782407487*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399965958*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4867,7 +5068,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    1.1102230246251568`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824077038*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453999680653`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4882,7 +5085,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251568`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824079177*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399970261*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4897,7 +5102,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -8.881784197001256*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778240813313`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399972373*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4911,7 +5118,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    4.440892098500627*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824083502*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399974434*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4926,7 +5135,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -1.1102230246251565`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824085704*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399976467*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4940,7 +5151,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    1.6653345369377353`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778240878487`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399978548*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4954,7 +5167,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    2.220446049250313*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824090019*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399980693*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4968,7 +5183,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    3.330669073875469*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824092278*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399982802*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4983,7 +5200,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -5.551115123125783*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824094433*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453999849253`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4997,7 +5216,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    2.2204460492503136`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778240965853`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453999870777`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5012,7 +5233,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -5.551115123125784*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824098813*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399989139*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5026,7 +5249,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    4.440892098500626*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824100978*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399991173*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5041,7 +5266,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -3.3306690738754706`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778241031322`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453999932423`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5053,7 +5280,9 @@ Cell[BoxData[
   "e=", 105, " dt=", 0.015625, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778241053133`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245399995348*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5068,7 +5297,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -5.551115123125783*^-17],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824107409*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453999973927`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5082,7 +5313,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    3.3306690738754706`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824109562*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932453999994926`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5096,7 +5329,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    3.3306690738754696`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824111767*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932454000016823`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5110,7 +5345,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    2.220446049250314*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824113926*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245400003818*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5125,7 +5362,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -2.220446049250313*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824116126*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245400006008*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5138,7 +5377,9 @@ Cell[BoxData[
   "e=", 111, " dt=", 0.03850689700949861, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824118327*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245400008059*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5152,7 +5393,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    1.1102230246251565`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824120503*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932454000102167`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5166,7 +5409,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    3.3306690738754696`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778241226892`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245400012336*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5181,7 +5426,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -4.440892098500626*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824125126*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245400014434*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5194,7 +5441,9 @@ Cell[BoxData[
   "e=", 115, " dt=", 0.03419621034519599, 
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 0.],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824127605*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.5932454000165167`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5208,7 +5457,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", 
    3.3306690738754706`*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824130053*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245400018655*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5223,7 +5474,9 @@ Cell[BoxData[
    "  determinant \!\(\*SubscriptBox[\(K\), \(e\)]\)=", \
 -2.220446049250313*^-16],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.5931778241323843`*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245400020792*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -5844,7 +6097,9 @@ iRSaQNLwN9UhdJlAPktnhVUioEAxivJ91wmgQL5lECBpoqVAI067mJxzpkAz
 LLYn
     "]]],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824139942*^9}],
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245400027707*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -6614,7 +6869,9 @@ iRSaQNLwN9UhdJlAPktnhVUioEAxivJ91wmgQL5lECBpoqVAI067mJxzpkAz
 LLYn
     "]]],
   Editable->False]], "Print",
- CellChangeTimes->{3.5931702777684727`*^9, 3.593177824177342*^9}]
+ CellChangeTimes->{
+  3.5931702777684727`*^9, 3.593177823881431*^9, {3.593245373247529*^9, 
+   3.593245400065002*^9}}]
 }, Open  ]]
 }, Open  ]],
 
@@ -7105,7 +7362,9 @@ StyleBox[\"Triangulation\",\nFontColor->RGBColor[0.690196, 0.345098, \
     1761.2695684536407`}, {0.8065000249516681, 0.8459724119620056, 
     1363.9108782004316`}}],
   Editable->False]], "Print",
- CellChangeTimes->{3.593170277853731*^9, 3.5931778243344593`*^9}],
+ CellChangeTimes->{
+  3.593170277853731*^9, 3.5931778243344593`*^9, {3.593245373393401*^9, 
+   3.5932454002547913`*^9}}],
 
 Cell[BoxData[
  Graphics3DBox[GraphicsComplex3DBox[CompressedData["
@@ -7939,23 +8198,28 @@ bxXz4j+hTA1ZidcjP+f26QNcn+Y/hN/JrOCh5j94r5pH5KUlP0yYvI8=
   AutomaticImageSize->True,
   Axes->True,
   BoxRatios->{1, 1, 0.4},
-  ImageSize->{352.2906093557971, 189.13140673979677`},
+  ImageSize->{372.1166209393626, 175.38817553699192`},
   Method->{"RotationControl" -> "Globe"},
   PlotRange->{{0., 1.}, {0., 1.}, {0., 3652.9319673523505`}},
   PlotRangePadding->{
     Scaled[0.02], 
     Scaled[0.02], 
     Scaled[0.02]},
-  ViewPoint->{-2.7557592240433855`, -1.7162318709231044`, 0.9541170076712682},
+  ViewPoint->{-2.9838604037048064`, -1.429218088457433, 0.7098681193212318},
   ViewVertical->{0., 0., 1.}]], "Output",
- CellChangeTimes->{3.593170277941094*^9, 3.593177824365028*^9}],
+ CellChangeTimes->{
+  3.593170277941094*^9, 3.593177824365028*^9, {3.593245376817812*^9, 
+   3.5932454002867126`*^9}}],
 
 Cell[BoxData[
  InterpretationBox[
-  RowBox[{"\<\"Norma H1: \"\>", "\[InvisibleSpace]", "12266.334536566452`"}],
-  SequenceForm["Norma H1: ", 12266.334536566452`],
+  RowBox[{"\<\"Norma H1: \"\>", "\[InvisibleSpace]", 
+   SqrtBox["NormaH1"]}],
+  SequenceForm["Norma H1: ", $CellContext`NormaH1^Rational[1, 2]],
   Editable->False]], "Print",
- CellChangeTimes->{3.593170277853731*^9, 3.593177824378834*^9}]
+ CellChangeTimes->{
+  3.593170277853731*^9, 3.5931778243344593`*^9, {3.593245373393401*^9, 
+   3.593245400296955*^9}}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -7988,176 +8252,176 @@ Cell[3536, 93, 136, 2, 32, "Text"],
 Cell[3675, 97, 2779, 70, 262, "Input"],
 Cell[CellGroupData[{
 Cell[6479, 171, 177, 2, 42, "Subsection"],
-Cell[6659, 175, 2687, 49, 129, "Input"]
+Cell[6659, 175, 2739, 50, 129, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9383, 229, 151, 2, 42, "Subsection"],
+Cell[9435, 230, 151, 2, 42, "Subsection"],
 Cell[CellGroupData[{
-Cell[9559, 235, 3763, 100, 414, "Input"],
+Cell[9611, 236, 3763, 100, 414, "Input"],
 Cell[CellGroupData[{
-Cell[13347, 339, 9579, 250, 254, "Print"],
-Cell[22929, 591, 9910, 233, 254, "Print"]
+Cell[13399, 340, 9632, 252, 254, "Print"],
+Cell[23034, 594, 9965, 235, 254, "Print"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[32900, 831, 129, 2, 42, "Subsection"],
+Cell[33060, 836, 129, 2, 42, "Subsection"],
 Cell[CellGroupData[{
-Cell[33054, 837, 3657, 96, 452, "Input"],
-Cell[36714, 935, 47676, 1363, 2078, "Print"],
-Cell[84393, 2300, 23819, 429, 301, "Output"]
+Cell[33214, 842, 3657, 96, 452, "Input"],
+Cell[36874, 940, 47729, 1365, 2078, "Print"],
+Cell[84606, 2307, 23876, 431, 301, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[108249, 2734, 130, 2, 33, "Input"],
-Cell[108382, 2738, 96, 1, 33, "Output"]
+Cell[108519, 2743, 130, 2, 33, "Input"],
+Cell[108652, 2747, 149, 3, 33, "Output"]
 }, Open  ]],
-Cell[108493, 2742, 214, 4, 32, "Text"],
+Cell[108816, 2753, 214, 4, 32, "Text"],
 Cell[CellGroupData[{
-Cell[108732, 2750, 5029, 115, 357, "Input"],
-Cell[113764, 2867, 633, 13, 25, "Print"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[114434, 2885, 3473, 79, 129, "Input"],
-Cell[117910, 2966, 242, 5, 25, "Print"]
+Cell[109055, 2761, 5029, 115, 357, "Input"],
+Cell[114087, 2878, 686, 15, 25, "Print"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[118189, 2976, 4878, 113, 224, "Input"],
+Cell[114810, 2898, 3473, 79, 129, "Input"],
+Cell[118286, 2979, 295, 7, 25, "Print"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[123092, 3093, 1992, 41, 64, "Print"],
-Cell[125087, 3136, 865, 15, 25, "Print"]
+Cell[118618, 2991, 4878, 113, 224, "Input"],
+Cell[CellGroupData[{
+Cell[123521, 3108, 2049, 43, 64, "Print"],
+Cell[125573, 3153, 920, 17, 25, "Print"]
 }, Open  ]]
 }, Open  ]],
-Cell[125979, 3155, 2616, 58, 129, "Input"],
+Cell[126520, 3174, 2616, 58, 129, "Input"],
 Cell[CellGroupData[{
-Cell[128620, 3217, 14976, 342, 825, "Input"],
+Cell[129161, 3236, 14976, 342, 825, "Input"],
 Cell[CellGroupData[{
-Cell[143621, 3563, 563, 12, 30, "Print"],
-Cell[144187, 3577, 513, 11, 25, "Print"],
-Cell[144703, 3590, 560, 12, 30, "Print"],
-Cell[145266, 3604, 562, 12, 30, "Print"],
-Cell[145831, 3618, 560, 12, 30, "Print"],
-Cell[146394, 3632, 562, 12, 30, "Print"],
-Cell[146959, 3646, 562, 12, 30, "Print"],
-Cell[147524, 3660, 516, 11, 25, "Print"],
-Cell[148043, 3673, 516, 11, 25, "Print"],
-Cell[148562, 3686, 535, 11, 30, "Print"],
-Cell[149100, 3699, 582, 13, 30, "Print"],
-Cell[149685, 3714, 564, 12, 30, "Print"],
-Cell[150252, 3728, 562, 12, 30, "Print"],
-Cell[150817, 3742, 582, 13, 30, "Print"],
-Cell[151402, 3757, 583, 13, 30, "Print"],
-Cell[151988, 3772, 580, 13, 30, "Print"],
-Cell[152571, 3787, 583, 13, 30, "Print"],
-Cell[153157, 3802, 580, 13, 30, "Print"],
-Cell[153740, 3817, 563, 12, 30, "Print"],
-Cell[154306, 3831, 579, 13, 30, "Print"],
-Cell[154888, 3846, 557, 12, 30, "Print"],
-Cell[155448, 3860, 567, 12, 30, "Print"],
-Cell[156018, 3874, 579, 13, 30, "Print"],
-Cell[156600, 3889, 565, 12, 30, "Print"],
-Cell[157168, 3903, 579, 13, 30, "Print"],
-Cell[157750, 3918, 565, 12, 30, "Print"],
-Cell[158318, 3932, 580, 13, 30, "Print"],
-Cell[158901, 3947, 580, 13, 30, "Print"],
-Cell[159484, 3962, 580, 13, 30, "Print"],
-Cell[160067, 3977, 567, 12, 30, "Print"],
-Cell[160637, 3991, 580, 13, 30, "Print"],
-Cell[161220, 4006, 562, 12, 30, "Print"],
-Cell[161785, 4020, 580, 13, 30, "Print"],
-Cell[162368, 4035, 580, 13, 30, "Print"],
-Cell[162951, 4050, 580, 13, 30, "Print"],
-Cell[163534, 4065, 567, 12, 30, "Print"],
-Cell[164104, 4079, 557, 12, 30, "Print"],
-Cell[164664, 4093, 570, 13, 30, "Print"],
-Cell[165237, 4108, 489, 10, 25, "Print"],
-Cell[165729, 4120, 580, 13, 30, "Print"],
-Cell[166312, 4135, 582, 13, 30, "Print"],
-Cell[166897, 4150, 561, 12, 30, "Print"],
-Cell[167461, 4164, 515, 11, 25, "Print"],
-Cell[167979, 4177, 585, 13, 30, "Print"],
-Cell[168567, 4192, 562, 12, 30, "Print"],
-Cell[169132, 4206, 582, 13, 30, "Print"],
-Cell[169717, 4221, 564, 12, 30, "Print"],
-Cell[170284, 4235, 564, 12, 30, "Print"],
-Cell[170851, 4249, 559, 12, 30, "Print"],
-Cell[171413, 4263, 579, 13, 30, "Print"],
-Cell[171995, 4278, 582, 13, 30, "Print"],
-Cell[172580, 4293, 583, 13, 30, "Print"],
-Cell[173166, 4308, 582, 13, 30, "Print"],
-Cell[173751, 4323, 518, 11, 25, "Print"],
-Cell[174272, 4336, 518, 11, 25, "Print"],
-Cell[174793, 4349, 517, 11, 25, "Print"],
-Cell[175313, 4362, 579, 13, 30, "Print"],
-Cell[175895, 4377, 554, 12, 30, "Print"],
-Cell[176452, 4391, 567, 12, 30, "Print"],
-Cell[177022, 4405, 515, 11, 25, "Print"],
-Cell[177540, 4418, 580, 13, 30, "Print"],
-Cell[178123, 4433, 517, 11, 25, "Print"],
-Cell[178643, 4446, 561, 12, 30, "Print"],
-Cell[179207, 4460, 563, 12, 30, "Print"],
-Cell[179773, 4474, 565, 12, 30, "Print"],
-Cell[180341, 4488, 565, 12, 30, "Print"],
-Cell[180909, 4502, 577, 13, 30, "Print"],
-Cell[181489, 4517, 565, 12, 30, "Print"],
-Cell[182057, 4531, 559, 12, 30, "Print"],
-Cell[182619, 4545, 520, 11, 25, "Print"],
-Cell[183142, 4558, 562, 12, 30, "Print"],
-Cell[183707, 4572, 562, 12, 30, "Print"],
-Cell[184272, 4586, 562, 12, 30, "Print"],
-Cell[184837, 4600, 585, 13, 30, "Print"],
-Cell[185425, 4615, 562, 12, 30, "Print"],
-Cell[185990, 4629, 582, 13, 30, "Print"],
-Cell[186575, 4644, 565, 12, 30, "Print"],
-Cell[187143, 4658, 578, 13, 30, "Print"],
-Cell[187724, 4673, 564, 12, 30, "Print"],
-Cell[188291, 4687, 518, 11, 25, "Print"],
-Cell[188812, 4700, 580, 13, 30, "Print"],
-Cell[189395, 4715, 580, 13, 30, "Print"],
-Cell[189978, 4730, 580, 13, 30, "Print"],
-Cell[190561, 4745, 561, 12, 30, "Print"],
-Cell[191125, 4759, 517, 11, 25, "Print"],
-Cell[191645, 4772, 582, 13, 30, "Print"],
-Cell[192230, 4787, 565, 12, 30, "Print"],
-Cell[192798, 4801, 518, 11, 25, "Print"],
-Cell[193319, 4814, 580, 13, 30, "Print"],
-Cell[193902, 4829, 517, 11, 25, "Print"],
-Cell[194422, 4842, 579, 13, 30, "Print"],
-Cell[195004, 4857, 564, 12, 30, "Print"],
-Cell[195571, 4871, 583, 13, 30, "Print"],
-Cell[196157, 4886, 582, 13, 30, "Print"],
-Cell[196742, 4901, 562, 12, 30, "Print"],
-Cell[197307, 4915, 583, 13, 30, "Print"],
-Cell[197893, 4930, 567, 12, 30, "Print"],
-Cell[198463, 4944, 562, 12, 30, "Print"],
-Cell[199028, 4958, 562, 12, 30, "Print"],
-Cell[199593, 4972, 582, 13, 30, "Print"],
-Cell[200178, 4987, 566, 12, 30, "Print"],
-Cell[200747, 5001, 582, 13, 30, "Print"],
-Cell[201332, 5016, 564, 12, 30, "Print"],
-Cell[201899, 5030, 587, 13, 30, "Print"],
-Cell[202489, 5045, 493, 10, 25, "Print"],
-Cell[202985, 5057, 582, 13, 30, "Print"],
-Cell[203570, 5072, 564, 12, 30, "Print"],
-Cell[204137, 5086, 567, 12, 30, "Print"],
-Cell[204707, 5100, 564, 12, 30, "Print"],
-Cell[205274, 5114, 579, 13, 30, "Print"],
-Cell[205856, 5129, 517, 11, 25, "Print"],
-Cell[206376, 5142, 567, 12, 30, "Print"],
-Cell[206946, 5156, 569, 12, 30, "Print"],
-Cell[207518, 5170, 582, 13, 30, "Print"],
-Cell[208103, 5185, 517, 11, 25, "Print"],
-Cell[208623, 5198, 562, 12, 30, "Print"],
-Cell[209188, 5212, 584, 13, 30, "Print"],
-Cell[209775, 5227, 34686, 619, 919, "Print"],
-Cell[244464, 5848, 46511, 768, 919, "Print"]
+Cell[144162, 3582, 616, 14, 30, "Print"],
+Cell[144781, 3598, 566, 13, 25, "Print"],
+Cell[145350, 3613, 613, 14, 30, "Print"],
+Cell[145966, 3629, 615, 14, 30, "Print"],
+Cell[146584, 3645, 613, 14, 30, "Print"],
+Cell[147200, 3661, 613, 14, 30, "Print"],
+Cell[147816, 3677, 618, 14, 30, "Print"],
+Cell[148437, 3693, 568, 13, 25, "Print"],
+Cell[149008, 3708, 571, 13, 25, "Print"],
+Cell[149582, 3723, 590, 13, 30, "Print"],
+Cell[150175, 3738, 635, 15, 30, "Print"],
+Cell[150813, 3755, 617, 14, 30, "Print"],
+Cell[151433, 3771, 615, 14, 30, "Print"],
+Cell[152051, 3787, 636, 15, 30, "Print"],
+Cell[152690, 3804, 638, 15, 30, "Print"],
+Cell[153331, 3821, 633, 15, 30, "Print"],
+Cell[153967, 3838, 638, 15, 30, "Print"],
+Cell[154608, 3855, 635, 15, 30, "Print"],
+Cell[155246, 3872, 614, 14, 30, "Print"],
+Cell[155863, 3888, 632, 15, 30, "Print"],
+Cell[156498, 3905, 608, 14, 30, "Print"],
+Cell[157109, 3921, 618, 14, 30, "Print"],
+Cell[157730, 3937, 635, 15, 30, "Print"],
+Cell[158368, 3954, 620, 14, 30, "Print"],
+Cell[158991, 3970, 632, 15, 30, "Print"],
+Cell[159626, 3987, 618, 14, 30, "Print"],
+Cell[160247, 4003, 633, 15, 30, "Print"],
+Cell[160883, 4020, 633, 15, 30, "Print"],
+Cell[161519, 4037, 632, 15, 30, "Print"],
+Cell[162154, 4054, 620, 14, 30, "Print"],
+Cell[162777, 4070, 633, 15, 30, "Print"],
+Cell[163413, 4087, 615, 14, 30, "Print"],
+Cell[164031, 4103, 635, 15, 30, "Print"],
+Cell[164669, 4120, 632, 15, 30, "Print"],
+Cell[165304, 4137, 633, 15, 30, "Print"],
+Cell[165940, 4154, 618, 14, 30, "Print"],
+Cell[166561, 4170, 610, 14, 30, "Print"],
+Cell[167174, 4186, 625, 15, 30, "Print"],
+Cell[167802, 4203, 544, 12, 25, "Print"],
+Cell[168349, 4217, 633, 15, 30, "Print"],
+Cell[168985, 4234, 633, 15, 30, "Print"],
+Cell[169621, 4251, 616, 14, 30, "Print"],
+Cell[170240, 4267, 568, 13, 25, "Print"],
+Cell[170811, 4282, 638, 15, 30, "Print"],
+Cell[171452, 4299, 615, 14, 30, "Print"],
+Cell[172070, 4315, 637, 15, 30, "Print"],
+Cell[172710, 4332, 619, 14, 30, "Print"],
+Cell[173332, 4348, 615, 14, 30, "Print"],
+Cell[173950, 4364, 614, 14, 30, "Print"],
+Cell[174567, 4380, 633, 15, 30, "Print"],
+Cell[175203, 4397, 633, 15, 30, "Print"],
+Cell[175839, 4414, 636, 15, 30, "Print"],
+Cell[176478, 4431, 635, 15, 30, "Print"],
+Cell[177116, 4448, 571, 13, 25, "Print"],
+Cell[177690, 4463, 573, 13, 25, "Print"],
+Cell[178266, 4478, 568, 13, 25, "Print"],
+Cell[178837, 4493, 633, 15, 30, "Print"],
+Cell[179473, 4510, 607, 14, 30, "Print"],
+Cell[180083, 4526, 620, 14, 30, "Print"],
+Cell[180706, 4542, 568, 13, 25, "Print"],
+Cell[181277, 4557, 633, 15, 30, "Print"],
+Cell[181913, 4574, 570, 13, 25, "Print"],
+Cell[182486, 4589, 614, 14, 30, "Print"],
+Cell[183103, 4605, 616, 14, 30, "Print"],
+Cell[183722, 4621, 618, 14, 30, "Print"],
+Cell[184343, 4637, 618, 14, 30, "Print"],
+Cell[184964, 4653, 632, 15, 30, "Print"],
+Cell[185599, 4670, 618, 14, 30, "Print"],
+Cell[186220, 4686, 612, 14, 30, "Print"],
+Cell[186835, 4702, 571, 13, 25, "Print"],
+Cell[187409, 4717, 615, 14, 30, "Print"],
+Cell[188027, 4733, 615, 14, 30, "Print"],
+Cell[188645, 4749, 615, 14, 30, "Print"],
+Cell[189263, 4765, 636, 15, 30, "Print"],
+Cell[189902, 4782, 615, 14, 30, "Print"],
+Cell[190520, 4798, 636, 15, 30, "Print"],
+Cell[191159, 4815, 618, 14, 30, "Print"],
+Cell[191780, 4831, 631, 15, 30, "Print"],
+Cell[192414, 4848, 615, 14, 30, "Print"],
+Cell[193032, 4864, 573, 13, 25, "Print"],
+Cell[193608, 4879, 633, 15, 30, "Print"],
+Cell[194244, 4896, 635, 15, 30, "Print"],
+Cell[194882, 4913, 633, 15, 30, "Print"],
+Cell[195518, 4930, 614, 14, 30, "Print"],
+Cell[196135, 4946, 568, 13, 25, "Print"],
+Cell[196706, 4961, 633, 15, 30, "Print"],
+Cell[197342, 4978, 618, 14, 30, "Print"],
+Cell[197963, 4994, 571, 13, 25, "Print"],
+Cell[198537, 5009, 635, 15, 30, "Print"],
+Cell[199175, 5026, 568, 13, 25, "Print"],
+Cell[199746, 5041, 633, 15, 30, "Print"],
+Cell[200382, 5058, 619, 14, 30, "Print"],
+Cell[201004, 5074, 636, 15, 30, "Print"],
+Cell[201643, 5091, 633, 15, 30, "Print"],
+Cell[202279, 5108, 615, 14, 30, "Print"],
+Cell[202897, 5124, 636, 15, 30, "Print"],
+Cell[203536, 5141, 618, 14, 30, "Print"],
+Cell[204157, 5157, 615, 14, 30, "Print"],
+Cell[204775, 5173, 615, 14, 30, "Print"],
+Cell[205393, 5189, 637, 15, 30, "Print"],
+Cell[206033, 5206, 619, 14, 30, "Print"],
+Cell[206655, 5222, 635, 15, 30, "Print"],
+Cell[207293, 5239, 617, 14, 30, "Print"],
+Cell[207913, 5255, 640, 15, 30, "Print"],
+Cell[208556, 5272, 544, 12, 25, "Print"],
+Cell[209103, 5286, 637, 15, 30, "Print"],
+Cell[209743, 5303, 619, 14, 30, "Print"],
+Cell[210365, 5319, 622, 14, 30, "Print"],
+Cell[210990, 5335, 617, 14, 30, "Print"],
+Cell[211610, 5351, 632, 15, 30, "Print"],
+Cell[212245, 5368, 570, 13, 25, "Print"],
+Cell[212818, 5383, 622, 14, 30, "Print"],
+Cell[213443, 5399, 620, 14, 30, "Print"],
+Cell[214066, 5415, 635, 15, 30, "Print"],
+Cell[214704, 5432, 572, 13, 25, "Print"],
+Cell[215279, 5447, 615, 14, 30, "Print"],
+Cell[215897, 5463, 635, 15, 30, "Print"],
+Cell[216535, 5480, 34739, 621, 919, "Print"],
+Cell[251277, 6103, 46564, 770, 919, "Print"]
 }, Open  ]]
 }, Open  ]],
-Cell[291002, 6620, 4315, 102, 148, "Input"],
+Cell[297868, 6877, 4315, 102, 148, "Input"],
 Cell[CellGroupData[{
-Cell[295342, 6726, 2972, 58, 85, "Input"],
-Cell[298317, 6786, 14146, 321, 330, "Print"],
-Cell[312466, 7109, 50932, 841, 254, "Output"],
-Cell[363401, 7952, 256, 5, 25, "Print"]
+Cell[302208, 6983, 2972, 58, 85, "Input"],
+Cell[305183, 7043, 14201, 323, 330, "Print"],
+Cell[319387, 7368, 50985, 843, 237, "Output"],
+Cell[370375, 8213, 328, 8, 31, "Print"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
